@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <div>
+    <fieldset><h1>User Input Form</h1>
+    <form action="./welcome.html">
+        <fieldset>
+            <legend>Personal Particular</legend>
+            <label for="Name"> Name::</label>
+            <input type="text" name="Name" placeholder="Enter your name"><br>
+            <label for=" Password" >Password::</label>
+            <input type="text" name="Password" placeholder="Enter your password"><br>
+            <label for="Gender ">Gender</label>
+            <input type="radio" name ="Gender"> Feamle
+            <input type="radio" name = "Gender">Male
+            <input type="radio" name="Gender" >others <br>
+            <label for="Age">Age</label>
+            <select name=" Age" id="Age">
+                <option value="< 1 year old">< 1 year old</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Languages</legend>
+            <input type="checkbox" name="Age">Java
+            <input type="checkbox" name="Age">C/C++
+            <input type="checkbox" name="Age" >C# 
+        </fieldset><br>
+        <fieldset>
+            <legend>Instructions</legend>
+            <textarea  name="message" rows="10" cols = "20">Enter your instructions here...</textarea>
+        </fieldset>
+            <br>
+            <input type="submit" value ="SUBMIT" >
+            <input type="button" value = "CLEAR" >
+        </form>
+    </fieldset>
+    </div>
+</body>
+</html>
